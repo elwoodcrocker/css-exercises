@@ -11,7 +11,7 @@ body {
   color: #333;
   /* I'll give you this one for free lol */
   display: flex;
-  align-items: center;
+  align-items:center;
   justify-content: center;
 }
 
@@ -20,19 +20,40 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+ 
+}
+
+.right {
+  display: flex;
+  flex-direction: column;
+}
+
+.text {
+  padding: 10px 0;
+}
+
+.top{
+  display: flex;
+  justify-content:space-between;
+  align-items: baseline;
+  font-size: 20px;
+  font-weight: bolder;
 }
 
 .icon {
   color: royalblue;
-  font-size: 26px;
+  font-size: 35px;
   font-weight: 700;
   background: lavender;
   width: 42px;
   height: 42px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+  flex:1 0 auto;
+  text-align:Center;
+  
 }
 
 .close-button {
